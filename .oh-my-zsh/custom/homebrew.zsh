@@ -21,4 +21,6 @@ function brewup() {
     run 'brew cleanup --prune=all'
 }
 
+alias bc='brew cleanup --prune=all'
+alias bl='brew list'
 alias bu=brewup
